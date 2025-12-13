@@ -1,0 +1,13 @@
+1. Pattern Selection and Explanation
+
+Selected Pattern: Observer Pattern
+
+The Observer pattern is the best choice for this problem because it is designed for situations where one object needs 
+to notify many other objects when something changes. In this social network scenario, a user or channel owner can have 
+multiple followers, which creates a clear one-to-many relationship.
+The intent of the Observer pattern is to define a one-to-many dependency so that when the subject changes its state, 
+all registered observers are automatically notified. Here, posting a new message is the state change, and the followers getting notified represents the observers being updated. This matches the problem exactly.
+The problem also mentions that users can add themselves as followers and remove themselves, and that the channel 
+owner can remove followers as well. This is directly supported by the Observer pattern through dynamic subscription 
+and unsubscription using attach and detach methods. Because of this, the Observer pattern is the most appropriate 
+and natural solution for this task.
