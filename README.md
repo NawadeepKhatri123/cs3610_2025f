@@ -14,14 +14,16 @@ SID : 5086950
 ---
 
 ### Answer to Q3 – Implementation
-The implementation of the selected design pattern is located in the `observer_pattern` directory.
+Selected design pattern is located in the `observer_pattern` directory.
 
 #### How to Run the Program
 ```bash
 cd observer_pattern
 python main.py
 
-#### Output
+---
+Output
+
 ```bash
 Student_A followed Dr. Hanna
 Student_B followed Dr. Hanna
@@ -44,6 +46,8 @@ Student_C unfollowed Dr. Hanna
  Dr. Hanna posted: !!! Happy Holidays !!!
 notifying followers...
  -> Student_A got update from Dr. Hanna : !!! Happy Holidays !!!
+
+ ---
 
 
 
